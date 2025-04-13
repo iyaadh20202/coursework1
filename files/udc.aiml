@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0.1" encoding="UTF-8">
+
+  <!-- Long-term Knowledge -->
+  <category>
+    <pattern>WHAT IS LONG-TERM KNOWLEDGE</pattern>
+    <template>Long-term knowledge is valid every time a programme is run.</template>
+  </category>
+  <category>
+    <pattern>DESCRIBE LONG-TERM KNOWLEDGE</pattern>
+    <template><srai>WHAT IS LONG-TERM KNOWLEDGE</srai></template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT LONG-TERM KNOWLEDGE</pattern>
+    <template><srai>WHAT IS LONG-TERM KNOWLEDGE</srai></template>
+  </category>
+
+  <!-- Short-term Knowledge -->
+  <category>
+    <pattern>WHAT IS SHORT-TERM KNOWLEDGE</pattern>
+    <template>Short-term knowledge is only valid for a particular instance or run of a programme.</template>
+  </category>
+  <category>
+    <pattern>DESCRIBE SHORT-TERM KNOWLEDGE</pattern>
+    <template><srai>WHAT IS SHORT-TERM KNOWLEDGE</srai></template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT SHORT-TERM KNOWLEDGE</pattern>
+    <template><srai>WHAT IS SHORT-TERM KNOWLEDGE</srai></template>
+  </category>
+
+  <!-- Generic Knowledge -->
+  <category>
+    <pattern>WHAT IS GENERIC KNOWLEDGE</pattern>
+    <template>Generic knowledge is relevant to more than one application or domain.</template>
+  </category>
+  <category>
+    <pattern>DESCRIBE GENERIC KNOWLEDGE</pattern>
+    <template><srai>WHAT IS GENERIC KNOWLEDGE</srai></template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT GENERIC KNOWLEDGE</pattern>
+    <template><srai>WHAT IS GENERIC KNOWLEDGE</srai></template>
+  </category>
+
+  <!-- Domain-specific Knowledge -->
+  <category>
+    <pattern>WHAT IS DOMAIN-SPECIFIC KNOWLEDGE</pattern>
+    <template>Domain-specific knowledge is only applicable to one specific application or domain.</template>
+  </category>
+  <category>
+    <pattern>DESCRIBE DOMAIN-SPECIFIC KNOWLEDGE</pattern>
+    <template><srai>WHAT IS DOMAIN-SPECIFIC KNOWLEDGE</srai></template>
+  </category>
+  <category>
+    <pattern>TELL ME ABOUT DOMAIN-SPECIFIC KNOWLEDGE</pattern>
+    <template><srai>WHAT IS DOMAIN-SPECIFIC KNOWLEDGE</srai></template>
+  </category>
+
+</aiml>
+<button>
+    <text></text>
+    <url></url>
+</button>
+<button>
+    <text></text>
+    <url></url>
+</button>
